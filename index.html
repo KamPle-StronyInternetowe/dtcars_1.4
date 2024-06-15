@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html
+  lang="pl"
+  class="scroll-smooth scroll-p-[90px] overflow-x-hidden overflow-y-scroll"
+>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dt Cars - wypożyczalnia samochodów</title>
+    <script type="module" crossorigin src="/assets/index-Bga3EPsx.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/main-DdCVXXLm.js">
+    <link rel="stylesheet" crossorigin href="/assets/main-MUrN_0mq.css">
+  </head>
+  <body>
+    <nav
+      class="navbar fixed top-0 flex h-[90px] w-full items-center justify-center text-2xl text-white transition-colors duration-[.3s] z-20"
+    >
+      <ul
+        class="nav-items flex flex-col items-center justify-center absolute top-0 translate-x-[100%] bg-[rgba(15,21,29,0.8)] backdrop-blur-[7px] w-[100%] h-[100vh] text-2xl uppercase transition-all duration-[1s] z-10 md:flex md:flex-row md:h-0 md:w-auto md:relative md:translate-x-0 md:my-5 md:text-lg lg:text-xl"
+      >
+        <li class="nav-item my-5 md:my-0">
+          <a
+            href="#home"
+            class="relative group mx-[1em] py-[.5em] md:mx-[.75em] lg:mx-[1.5em]"
+            >Strona główna
+            <span
+              class="absolute bottom-0 left-0 right-0 scale-0 h-[2px] bg-custom-blue group-hover:w-full transition-all duration-[.3s] group-hover:scale-[(1)]"
+            ></span
+          ></a>
+        </li>
+        <li class="nav-item my-5 md:my-0">
+          <a
+            href="#ourfleet"
+            class="relative group mx-[1em] py-[.5em] md:mx-[.75em] lg:mx-[1.5em]"
+            >Nasza flota
+            <span
+              class="absolute bottom-0 left-0 right-0 scale-0 h-[2px] bg-custom-blue group-hover:w-full transition-all duration-[.3s] group-hover:scale-[(1)]"
+            ></span
+          ></a>
+        </li>
+        <li class="nav-item my-5 md:my-0">
+          <a
+            href="#aboutus"
+            class="relative group mx-[1em] py-[.5em] md:mx-[.75em] lg:mx-[1.5em]"
+            >O nas
+            <span
+              class="absolute bottom-0 left-0 right-0 scale-0 h-[2px] bg-custom-blue group-hover:w-full transition-all duration-[.3s] group-hover:scale-[(1)]"
+            ></span
+          ></a>
+        </li>
+        <li class="nav-item my-5 md:my-0">
+          <a
+            href="#contact"
+            class="relative group mx-[1em] py-[.5em] md:mx-[.75em] lg:mx-[1.5em]"
+            >Kontakt
+            <span
+              class="absolute bottom-0 left-0 right-0 scale-0 h-[2px] bg-custom-blue group-hover:w-full transition-all duration-[.3s] group-hover:scale-[(1)]"
+            ></span
+          ></a>
+        </li>
+        <li class="nav-item my-5 md:my-0">
+          <a
+            href="./wspolpraca.html"
+            class="relative group mx-[1em] py-[.5em] md:mx-[.75em] lg:mx-[1.5em]"
+            >Współpraca
+            <span
+              class="absolute bottom-0 left-0 right-0 scale-0 h-[2px] bg-custom-blue group-hover:w-full transition-all duration-[.3s] group-hover:scale-[(1)]"
+            ></span
+          ></a>
+        </li>
+      </ul>
+      <button
+        name="menu-burger button"
+        aria-label="Menu-burger"
+        class="burger-icon group absolute top-[50%] right-[40px] w-[40px] h-[40px] translate-y-[-50%] z-10 md:hidden"
+      >
+        <div
+          data-number="1"
+          class="icon-line w-full h-[4px] bg-white group-hover:bg-custom-blue my-2 rounded-lg transition-all duration-[.3s]"
+        ></div>
+        <div
+          data-number="2"
+          class="icon-line w-full h-[4px] bg-white group-hover:bg-custom-blue my-2 rounded-lg transition-all duration-[.3s]"
+        ></div>
+        <div
+          data-number="3"
+          class="icon-line w-full h-[4px] bg-white group-hover:bg-custom-blue my-2 rounded-lg transition-all duration-[.3s]"
+        ></div>
+      </button>
+    </nav>
+    <header>
+      <div class="cookie-box fixed bottom-0 left-0 px-[2em] py-[2em] flex flex-col justify-center items-center max-h-[850px]  text-xs text-center bg-[#f8f8f8] text-black border-t-[3px] border-[#006A93] animate-customShow sm:text-sm md:px-[4em] md:py-[3em] lg:max-h-[500px] lg:px-[10em] z-20 opacity-0 translate-y-[100%]">
+        <p>
+          Strona wykorzystuje pliki cookies, których przetwarzanie, za wyłączeniem plików niezbędnych dokonywane jest w oparciu o Pani/Pana zgodę (Akceptuj wszystkie). Zgoda może być w każdym momencie wycofana lub zmieniona (Skonfiguruj), jednak bez wpływu na zgodność z prawem przetwarzania danych przed dokonaną zmianą. Ma Pani/Pan również prawo odrzuć pozostałe, poza niezbędnymi pliki cookies (Odrzuć). Dane przetwarzane są przez Administratora Danych DT CARS SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ, ul. Okrężna 29, 44-321 Marklowice, KRS: 0001101457 w celu umożliwienia korzystania ze Strony, jak również na potrzeby analizy zachowań na Stronie oraz do zarządzania Stroną. 
+          Więcej informacji na temat przetwarzania danych osobowych oraz plików cookies znajduje się w naszej.
+          <a aria-label="Dowiedz się więcej o polityce prywatności" href="./polityka_prywatnosci.html" class="underline hover:text-[#006A93] text-[13px] font-bold transition-colors duration-[.2s]">Polityce Prywatności.</a></p>
+        <div class="button-box w-[100%] flex flex-row flex-wrap justify-center items-center">
+          <button name="Akceptuj" class="cookie-btn mt-[2em] mx-[1em] py-[1em] px-[1em] w-[165px] bg-[#006A93] hover:bg-[#0190c9] text-[12px] text-white uppercase rounded-[5px] transition-colors duration-[.3s] cursor-pointer">Akceptuj wszystkie</button>
+          <button name="Skonfiguruj" class="cookie-config-btn mt-[2em] mx-[1em] py-[1em] px-[1.5em] w-[120px]  bg-[#006A93] hover:bg-[#0190c9] text-[12px] text-white uppercase rounded-[5px] transition-colors duration-[.3s] cursor-pointer">Skonfiguruj</button>
+          <button name="Odrzuć" class="cookie-btn-reject mt-[2em] mx-[1em] py-[1em] px-[1.5em] w-[120px]  bg-[#006A93] hover:bg-[#0190c9] text-white text-[12px] uppercase rounded-[5px] transition-colors duration-[.3s] cursor-pointer">Odrzuć</button></div>
+          <div class="cookie-config-box absolute bottom-0 w-full h-[600px] bg-[#f8f8f8] border-t-[3px] border-[#006A93] sm:h-[400px] hidden">
+            <div class="options-container absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] pb-[3em] px-[1em] text-[14px] text-center">
+              <div class="first-option flex flex-row my-[1em]">
+                <p class="mr-[1em] text-left"><b>Pliki niezbędne</b> umożliwiające korzystanie z usług dostępnych w ramach Strony, domyślnie zaznaczone, bez nich Strona nie może prawidłowo działać.
+                </p>
+                <input class="absolute w-[20px] h-[20px] right-0" type="checkbox" id="first-option" disabled="disabled" checked="checked">
+              </div>
+              <div class="second-option flex flex-row my-[1em]">
+                <p class="mr-[1em] text-left"><b>Pliki statystyczne</b> umożliwiające zbieranie informacji o sposobie korzystania ze Strony internetowej
+                </p>
+                <input class="optional-cookie-first absolute w-[20px] h-[20px] right-0" type="checkbox" id="optional-cookie-first">
+              </div>
+              <div class="third-option flex flex-row my-[1em]">
+                <p class="mr-[1em] text-left"><b>Pliki niesklasyfikowane</b> pliki, które są w procesie klasyfikacji, wraz z dostawcami poszczególnych plików.
+                </p>
+                <input class="optional-cookie-second absolute w-[20px] h-[20px] right-0" type="checkbox" id="optional-cookie-second">
+              </div>
+            </div>
+            <div class="buttons-container absolute bottom-0 flex justify-center items-center w-full">
+              <button name="wróć" class="cookie-config-back-btn mb-[2em]  py-[1em] px-[1.5em] mx-[1em]  bg-[#006A93] hover:bg-[#0190c9] text-white uppercase rounded-[5px] transition-colors duration-[.3s] cursor-pointer sm:px-[2em] sm:mx-[3em]">Wróć</button>
+              <button name="Zatwierdź" class="cookie-config-accept-btn mb-[2em] py-[1em] px-[1.5em] mx-[1em]  bg-[#006A93] hover:bg-[#0190c9] text-[12px] text-white uppercase rounded-[5px] transition-colors duration-[.3s] cursor-pointer sm:mx-[3em]">Zatwierdź</button>
+            </div>
+          </div>
+      </div>
+      <section id="home" class="home">
+        <div class="hero">
+          <div
+            class="hero-img h-screen w-full bg-[url('../img/dt_cars_logo_small.jpg')] bg-cover bg-center sm:bg-[url('../img/dt_cars_logo_big.jpg')] sm:bg-fixed"
+          >
+            <div
+              class="hero-shadow relative bg-[rgba(13,16,23,.9)] w-full h-full"
+            >
+              <div
+                class="decor-shadow absolute top-0 w-full h-[200px] bg-gradient-to-b from-[rgba(119,119,119,.8)] to-[rgba(13,16,23,.0)]"
+              ></div>
+              <div
+                class="decor-shadow absolute bottom-0 w-full h-[200px] bg-gradient-to-b from-[rgba(13,16,23,.0)] to-[rgba(119,119,119,.8)]"
+              ></div>
+            </div>
+            <div
+              class="hero-text absolute w-full top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-white text-center"
+            >
+              <h1 class="mb-[2.5em] px-2 text-2xl font-semibold uppercase">
+                Wypożyczalnia samochodów Dt Cars
+              </h1>
+              <p class="px-6 mx-auto text-xl font-light max-w-[800px]">
+                Witamy na stronie internetowej DT Cars wypożyczalni samochodów !
+                <br />
+                <br />
+                Nasza firma oferuje szeroki wybór pojazdów dostosowanych do
+                potrzeb naszych klientów.
+              </p>
+            </div>
+            <a
+              class="absolute bottom-[7vh] left-[50%] translate-x-[-50%] translate-y-0 animate-customBounce sm:bottom-[4vh] md:bottom-[5vh] lg:bottom-[15vh]"
+              href="#ourfleet"
+              aria-label="Przejdź dalej"
+              ><svg width="180" height="78" viewBox="0 0 217 78" fill="none">
+                <g filter="url(#filter0_d_1_37)">
+                  <rect
+                    x="103.171"
+                    y="58.2208"
+                    width="110"
+                    height="10"
+                    transform="rotate(-26 103.171 58.2208)"
+                    fill="#04B9FE"
+                  />
+                </g>
+                <g filter="url(#filter1_d_1_37)">
+                  <rect
+                    width="110"
+                    height="10"
+                    transform="matrix(-0.898794 -0.438371 -0.438371 0.898794 113.251 58.2208)"
+                    fill="#04B9FE"
+                  />
+                </g>
+                <defs>
+                  <filter
+                    id="filter0_d_1_37"
+                    x="93.1715"
+                    y="0"
+                    width="123.251"
+                    height="77.2088"
+                    filterUnits="userSpaceOnUse"
+                    color-interpolation-filters="sRGB"
+                  >
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feColorMatrix
+                      in="SourceAlpha"
+                      type="matrix"
+                      values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                      result="hardAlpha"
+                    />
+                    <feOffset />
+                    <feGaussianBlur stdDeviation="5" />
+                    <feComposite in2="hardAlpha" operator="out" />
+                    <feColorMatrix
+                      type="matrix"
+                      values="0 0 0 0 0.0156863 0 0 0 0 0.72549 0 0 0 0 0.996078 0 0 0 1 0"
+                    />
+                    <feBlend
+                      mode="normal"
+                      in2="BackgroundImageFix"
+                      result="effect1_dropShadow_1_37"
+                    />
+                    <feBlend
+                      mode="normal"
+                      in="SourceGraphic"
+                      in2="effect1_dropShadow_1_37"
+                      result="shape"
+                    />
+                  </filter>
+                  <filter
+                    id="filter1_d_1_37"
+                    x="0"
+                    y="0"
+                    width="123.251"
+                    height="77.2088"
+                    filterUnits="userSpaceOnUse"
+                    color-interpolation-filters="sRGB"
+                  >
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feColorMatrix
+                      in="SourceAlpha"
+                      type="matrix"
+                      values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                      result="hardAlpha"
+                    />
+                    <feOffset />
+                    <feGaussianBlur stdDeviation="5" />
+                    <feComposite in2="hardAlpha" operator="out" />
+                    <feColorMatrix
+                      type="matrix"
+                      values="0 0 0 0 0.0156863 0 0 0 0 0.72549 0 0 0 0 0.996078 0 0 0 1 0"
+                    />
+                    <feBlend
+                      mode="normal"
+                      in2="BackgroundImageFix"
+                      result="effect1_dropShadow_1_37"
+                    />
+                    <feBlend
+                      mode="normal"
+                      in="SourceGraphic"
+                      in2="effect1_dropShadow_1_37"
+                      result="shape"
+                    />
+                  </filter>
+                </defs>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section id="ourfleet" class="bg-custom-dark">
+        <h2
+          class="pt-[3em] text-xl font-light text-white text-center tracking-widest uppercase"
+        >
+          Nasza Flota
+        </h2>
+        <p class="text-center mx-auto px-4 py-[3em] text-white max-w-[500px]">
+          Zapoznaj się z szerokim wyborem samochodów Naszej floty. W ofercie
+          Samochody osobowe, dostawcze oraz kampery.
+        </p>
+        <div class="category-container flex flex-col items-center">
+          <div class="first-category group relative mx-[1em] my-[1.5em]">
+            <a href="./samochody_osobowe.html">            
+              <img
+              src="./img/audi_big 1.jpg"
+              alt="białe audi zaparkowane na poboczu drogi"
+              class="rounded-lg"
+            />
+            <div
+              class="shadow absolute top-0 bottom-0 left-0 right-0 bg-[rgba(13,16,23,.6)] rounded-lg group-hover:bg-[rgba(13,16,23,.3)] transition-colors duration-[.3s]"
+            ></div>
+            <p
+              class="absolute top-[50%] left-6 md:left-32 translate-y-[-50%] text-xl text-white tracking-widest"
+            >
+              Osobowe
+            </p>
+          </div></a>
+          <div class="second-category group relative mx-[1em] my-[1.5em]">
+            <a><img
+              src="./img/delivery_car_big.jpg"
+              alt="Dostawczy samochód na tle gór"
+              class="rounded-lg"
+            />
+            <div
+              class="shadow absolute top-0 bottom-0 left-0 right-0 bg-[rgba(13,16,23,.6)] rounded-lg group-hover:bg-[rgba(13,16,23,.3)] transition-colors duration-[.3s]"
+            ></div>
+            <p
+              class="absolute top-[50%] left-6 md:left-32 translate-y-[-50%] text-xl text-white tracking-widest"
+            >
+              Dostawcze
+            </p>
+            <p
+              class="absolute py-[.5em] px-[.75em] top-[75%] right-3 md:right-10 translate-y-[-50%] text-sm text-white tracking-widest border uppercase"
+            >
+              Już wkrótce
+            </p></a>
+          </div>
+          <div
+            class="third-category group relative mx-[1em] mt-[1.5em] mb-[5em]"
+          >
+          <a>            
+            <img
+            src="./img/camper_big.jpg"
+            alt="Zaparkowane dwa kampery"
+            class="rounded-lg"
+          />
+          <div
+            class="shadow absolute top-0 bottom-0 left-0 right-0 bg-[rgba(13,16,23,.6)] rounded-lg group-hover:bg-[rgba(13,16,23,.3)] transition-colors duration-[.3s]"
+          ></div>
+          <p
+            class="absolute top-[50%] left-6 md:left-32 translate-y-[-50%] text-xl text-white tracking-widest"
+          >
+            Kampery
+          </p>
+          <p
+            class="absolute py-[.5em] px-[.75em] top-[75%] right-3 md:right-10 translate-y-[-50%] text-sm text-white tracking-widest border uppercase"
+          >
+            Już wkrótce
+          </p></a>
+          </div>
+        </div>
+      </section>
+      <section id="aboutus" class="relative bg-[#EEEEEE] overflow-hidden">
+        <div class="wrapper">      
+          <h2
+          class="pt-[3em] text-xl font-light text-black text-center tracking-widest uppercase"
+        >
+          O nas
+        </h2>
+        <div class="road-decor absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
+          <svg  width="600"  height="600"  viewBox="0 0 24 24"  fill="none"  stroke="#E1E1E1"  stroke-width=".15"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-road"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 19l4 -14" /><path d="M16 5l4 14" /><path d="M12 8v-2" /><path d="M12 13v-2" /><path d="M12 18v-2" /></svg></div>
+        <div class="container mx-auto pb-[5em] flex flex-col lg:flex-row-reverse items-center justify-center z-10">
+            <img src="./img/mercedes_small.png" alt="Szary samochód marki mercedes" class="animate-img translate-x-[50%] transition-transform duration-[1s] scale-125 sm:scale-100">
+          <p class="aboutus-text px-[1em] mt-[2em] z-10">W <strong>Dt Cars</strong> zapewniamy dogodne warunki wynajmu, komfortową podróż i satysfakcję związaną z korzystaniem z naszych usług. Jesteśmy gotowi służyć pomocą w doborze odpowiedniego samochodu. Dbamy o bezpieczeństwo naszych klientów i regularnie przeprowadzamy kontrolę techniczną każdego pojazdu, aby zapewnić maksymalną pewność podczas podróży. 
+            Zapraszamy do zapoznania się z naszą ofertą i skorzystania z naszych usług. Jesteśmy pewni, że nasza wypożyczalnia samochodów spełni Twoje oczekiwania i umili podróż zarówno w celach biznesowych, jak i rekreacyjnych. 
+            Odkryj nowe możliwości podróżowania z naszą wypożyczalnią samochodów DT CARS !</p>
+        </div></div>
+        <div
+        class="decor-shadow absolute bottom-0 w-[600px] h-[300px] bg-gradient-to-t from-[rgba(0,58,81)] to-[rgba(0,106,147,0)] rotate-[50deg] translate-x-[-55%] translate-y-[50%] sm:translate-x-[-40%] z-0"
+      ></div>
+        <div
+        class="decor-shadow absolute bottom-0 right-0 w-[600px] h-[300px] bg-gradient-to-t from-[rgba(0,58,81)] to-[rgba(0,106,147,0)] rotate-[-50deg] translate-x-[55%] translate-y-[50%] sm:translate-x-[40%] z-0"
+      ></div>
+      </section>
+      <section
+        id="contact"
+        class="contact relative bg-gray-500 text-white text-center bg-[url(../img/dashboard-small.jpg)] sm:bg-[url(../img/dashboard-big.jpg)] bg-cover">
+        <div class="shadow absolute w-full h-[100%] bg-[rgba(0,0,0,.7)] z-0">
+        </div>
+        <h2 class="pt-[3em] relative uppercase text-xl font-light tracking-widest">Kontakt</h2>
+        <div class="wrapper">
+          <div class="container relative mx-auto flex flex-col lg:flex-row items-center justify-around">
+            <div class="contact-info mt-[4em] text-xl leading-[2rem]">
+              <p class="mb-[.5em] uppercase">DT Cars</p>
+              <p>ul. Okrężna 29</p>
+              <p>44-321 Marklowice</p>
+              <p>tel: +48 790 274 105</p>
+              <p>email: dtcars.rentcars@gmail.com</p>
+              <div class="icons-container mt-[2em]">
+                <a aria-label="Odwiedź profil dt cars na facebooku"
+                href="https://www.facebook.com/dt.cars.2024" class="inline-block mx-[.5em] w-[50px] h-[50px]">
+                  <svg width="undefined" height="undefined" viewBox="0 0 128 128">
+                  <rect width="118.35" height="118.35" x="4.83" y="4.83" fill="#3d5a98" rx="6.53" ry="6.53"/>
+                  <path fill="#fff" d="M86.48 123.17V77.34h15.38l2.3-17.86H86.48v-11.4c0-5.17 1.44-8.7 8.85-8.7h9.46v-16A126.56 126.56 0 0 0 91 22.7c-13.62 0-23 8.3-23 23.61v13.17H52.62v17.86H68v45.83z"/>
+                  </svg></a>
+                <a aria-label="Odwiedź profil dt cars na instagramie"
+                href="https://www.instagram.com/dt_cars_rybnik/" class="inline-block w-[50px] h-[50px] mx-[.5em]">
+                  <svg width="undefined" height="undefined" viewBox="0 0 256 256">
+                    <g fill="none">
+                        <rect width="256" height="256" fill="url(#skillIconsInstagram0)" rx="60"/>
+                        <rect width="256" height="256" fill="url(#skillIconsInstagram1)" rx="60"/>
+                        <path fill="#fff" d="M128.009 28c-27.158 0-30.567.119-41.233.604c-10.646.488-17.913 2.173-24.271 4.646c-6.578 2.554-12.157 5.971-17.715 11.531c-5.563 5.559-8.98 11.138-11.542 17.713c-2.48 6.36-4.167 13.63-4.646 24.271c-.477 10.667-.602 14.077-.602 41.236s.12 30.557.604 41.223c.49 10.646 2.175 17.913 4.646 24.271c2.556 6.578 5.973 12.157 11.533 17.715c5.557 5.563 11.136 8.988 17.709 11.542c6.363 2.473 13.631 4.158 24.275 4.646c10.667.485 14.073.604 41.23.604c27.161 0 30.559-.119 41.225-.604c10.646-.488 17.921-2.173 24.284-4.646c6.575-2.554 12.146-5.979 17.702-11.542c5.563-5.558 8.979-11.137 11.542-17.712c2.458-6.361 4.146-13.63 4.646-24.272c.479-10.666.604-14.066.604-41.225s-.125-30.567-.604-41.234c-.5-10.646-2.188-17.912-4.646-24.27c-2.563-6.578-5.979-12.157-11.542-17.716c-5.562-5.562-11.125-8.979-17.708-11.53c-6.375-2.474-13.646-4.16-24.292-4.647c-10.667-.485-14.063-.604-41.23-.604h.031Zm-8.971 18.021c2.663-.004 5.634 0 8.971 0c26.701 0 29.865.096 40.409.575c9.75.446 15.042 2.075 18.567 3.444c4.667 1.812 7.994 3.979 11.492 7.48c3.5 3.5 5.666 6.833 7.483 11.5c1.369 3.52 3 8.812 3.444 18.562c.479 10.542.583 13.708.583 40.396c0 26.688-.104 29.855-.583 40.396c-.446 9.75-2.075 15.042-3.444 18.563c-1.812 4.667-3.983 7.99-7.483 11.488c-3.5 3.5-6.823 5.666-11.492 7.479c-3.521 1.375-8.817 3-18.567 3.446c-10.542.479-13.708.583-40.409.583c-26.702 0-29.867-.104-40.408-.583c-9.75-.45-15.042-2.079-18.57-3.448c-4.666-1.813-8-3.979-11.5-7.479s-5.666-6.825-7.483-11.494c-1.369-3.521-3-8.813-3.444-18.563c-.479-10.542-.575-13.708-.575-40.413c0-26.704.096-29.854.575-40.396c.446-9.75 2.075-15.042 3.444-18.567c1.813-4.667 3.983-8 7.484-11.5c3.5-3.5 6.833-5.667 11.5-7.483c3.525-1.375 8.819-3 18.569-3.448c9.225-.417 12.8-.542 31.437-.563v.025Zm62.351 16.604c-6.625 0-12 5.37-12 11.996c0 6.625 5.375 12 12 12s12-5.375 12-12s-5.375-12-12-12v.004Zm-53.38 14.021c-28.36 0-51.354 22.994-51.354 51.355c0 28.361 22.994 51.344 51.354 51.344c28.361 0 51.347-22.983 51.347-51.344c0-28.36-22.988-51.355-51.349-51.355h.002Zm0 18.021c18.409 0 33.334 14.923 33.334 33.334c0 18.409-14.925 33.334-33.334 33.334c-18.41 0-33.333-14.925-33.333-33.334c0-18.411 14.923-33.334 33.333-33.334Z"/>
+                        <defs>
+                            <radialGradient id="skillIconsInstagram0" cx="0" cy="0" r="1" gradientTransform="matrix(0 -253.715 235.975 0 68 275.717)" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#FD5"/>
+                                <stop offset=".1" stop-color="#FD5"/>
+                                <stop offset=".5" stop-color="#FF543E"/>
+                                <stop offset="1" stop-color="#C837AB"/>
+                            </radialGradient>
+                            <radialGradient id="skillIconsInstagram1" cx="0" cy="0" r="1" gradientTransform="matrix(22.25952 111.2061 -458.39518 91.75449 -42.881 18.441)" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#3771C8"/>
+                                <stop offset=".128" stop-color="#3771C8"/>
+                                <stop offset="1" stop-color="#60F" stop-opacity="0"/>
+                            </radialGradient>
+                        </defs>
+                    </g>
+                </svg>
+                </a>
+                <a href="mailto:dtcars.rentcars@gmail.com" class="inline-block w-[50px] h-[50px] mx-[.5em]">
+                  <svg width="undefined" height="undefined" viewBox="0 0 256 193">
+                    <path fill="#4285F4" d="M58.182 192.05V93.14L27.507 65.077L0 49.504v125.091c0 9.658 7.825 17.455 17.455 17.455h40.727Z"/>
+                    <path fill="#34A853" d="M197.818 192.05h40.727c9.659 0 17.455-7.826 17.455-17.455V49.505l-31.156 17.837l-27.026 25.798v98.91Z"/>
+                    <path fill="#EA4335" d="m58.182 93.14l-4.174-38.647l4.174-36.989L128 69.868l69.818-52.364l4.669 34.992l-4.669 40.644L128 145.504z"/>
+                    <path fill="#FBBC04" d="M197.818 17.504V93.14L256 49.504V26.231c0-21.585-24.64-33.89-41.89-20.945l-16.292 12.218Z"/>
+                    <path fill="#C5221F" d="m0 49.504l26.759 20.07L58.182 93.14V17.504L41.89 5.286C24.61-7.66 0 4.646 0 26.23v23.273Z"/>
+                </svg>
+                </a>
+              </div>
+            </div>
+            <div class="cntact-form relative mt-[4em] px-[1em] w-full max-w-[450px]">
+              <form action="mail.php" method="post" class="contact-form flex flex-col p-[10px] bg-transparent">
+                <div class="contact-box flex flex-col mt-[20px]">
+                  <label for="name" class="mb-[10px] text-[20px] hidden">Imię:</label>
+                  <input type="text" id="name" name="name" class="p-[10px] bg-[rgba(157,157,157,.2)] border-b-2 border-[#006A93] text-[16px] rounded-t-[4px] placeholder:text-[rgb(183,183,183)] focus:outline-none focus:ring-1 focus-ring-custom-blue" placeholder="Podaj swoje imię" required>
+                  <p class="error-text">error</p>
+                </div>
+                <div class="contact-box flex flex-col mt-[20px]">
+                  <label for="email" class="mb-[10px] text-[20px] hidden">E-mail:</label>
+                  <input type="email" id="email" name="email" class="p-[10px] bg-[rgba(157,157,157,.2)] border-b-2 border-[#006A93] text-[16px] rounded-t-[4px] placeholder:text-[rgb(183,183,183)] focus:outline-none focus:ring-1 focus-ring-custom-blue" placeholder="Podaj swój adres e-mail" required>
+                  <p class="error-text">error</p>
+                </div>
+                <div class="contact-box flex flex-col mt-[20px]">
+                  <label for="msg" class="mb-[10px] text-[20px] hidden">Wiadomość:</label>
+                  <textarea name="msg" id="msg" class="p-[15px] bg-[rgba(157,157,157,.2)] border-b-2 border-[#006A93] text-[16px] rounded-t-[4px] placeholder:text-[rgb(183,183,183)] focus:outline-none focus:ring-1 focus-ring-custom-blue resize-y min-h-[150px] max-h-[250px]" placeholder="Napisz wiadomość" required></textarea>
+                  <p class="error-text">error</p>
+                </div>
+                <button class="send-btn mx-auto py-[12px] px-[24px] mt-[1em] text-[16px] bg-[#006A93] shadow-md text-white rounded-[5px] uppercase cursor-pointer hover:bg-custom-blue transition-colors duration-[.3s]">Wyślij</button>
+              </form>
+              <p class="msg-status custom-hide absolute top-[25%] left-[50%] translate-x-[-50%] p-[30px] justify-center items-center w-full max-w-[350px] rounded-[10px] text-[24px]"></p>
+            </div>
+          </div>
+          <p class="rodo-info relative text-[rgb(150,150,150)] text-xs mt-[3em] pb-[3em] mx-auto max-w-[600px] text-center">Administratorem Pani/Pana danych osobowych jest DT CARS SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ, ul. Okrężna 29, 44-321 Marklowice, KRS: 0001101457. Pani/Pana dane osobowe przetwarzane będą w celu udzielenia odpowiedzi na wiadomość przesłaną za pomocą formularza kontaktowego. Przysługuje Pani/Panu prawo do: dostępu do treści danych, ich sprostowania, usunięcia, ograniczenia przetwarzania, wniesienia sprzeciwu, wniesienia skargi do organu nadzorczego. W celu zapoznania się z pełną treścią klauzuli informacyjnej i uzyskania więcej informacji na temat przetwarzania danych osobowych zapraszamy do zapoznania się z Polityką Prywatności.
+            </p>
+        </div>
+    </main>
+    <footer class="relative bg-[#006A93] text-white">
+      <div class="wrapper">
+        <p class="font-decor pt-[1em] text-6xl text-center uppercase lg:text-left lg:ml-[2em]">Dt cars</p>
+        <div class="container mx-auto py-[3em] flex flex-col justify-center items-center text-lg lg:flex-row lg:justify-between lg:max-w-[700px] lg:mr-[3em]">
+          <a href="#home" class="py-[.5em] hover:scale-110 transition-transform duration-[.3s]">Strona główna</a>
+          <a href="#ourfleet" class="my-[.5em] hover:scale-110 transition-transform duration-[.3s]">Nasza flota</a>
+          <a href="#aboutus" class="my-[.5em] hover:scale-110 transition-transform duration-[.3s]">O nas</a>
+          <a href="#contact" class="my-[.5em] hover:scale-110 transition-transform duration-[.3s]">Kontakt</a>
+          <a href="./wspolpraca.html" class="my-[.5em] hover:scale-110 transition-transform duration-[.3s]">Współpraca</a>
+        </div>
+      </div>
+      <div class="decor-line my-[2em] bg-white w-full h-[2px]"></div>
+      <p class="text-center my-[1em]"><a href="./polityka_prywatnosci.html">Polityka Prywatności</a></p>
+      <p class="text-center pb-[2em]">© DT CARS - Wypożyczalnia samochodów | 2024r.</p>
+    </footer>
+  </body>
+</html>
